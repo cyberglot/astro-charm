@@ -93,7 +93,7 @@ const configSchema = z.object({
           icon: iconStringOrLightDarkOrWithStates,
         }),
       )
-      .min(1)
+      .min(0)
       .default([
         {
           title: "Twitter",
